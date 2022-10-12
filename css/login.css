@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image:url(../images/1662455526154.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 400px;
+    min-height: 400px;
+    background: rgb(242, 255, 208);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(236, 255, 252, 0.938);
+    padding: 40px 30px;
+    opacity: 0.8;
+}
+.loginform{
+    background-image: linear-gradient(to right,rgba(9, 252, 199, 0.959), rgb(255, 177, 232));
+}
+.hi{
+    width:83px;
+    height:70px;
+    margin-top:12px;
+    text-align: center;
+    float: center;
+    margin-left:34%;
+    margin-top: 7%;
+}
+.container .hello {
+    color:black;
+    font-weight:bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+
+}
+input:invalid {
+    border: red solid 3px;
+  }
+.container .loginform .contain {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+  
+   
+    
+}
+
+.container .loginform .contain input {
+    width: 95%;
+    height: 100%;
+    border: 2px solid #3aff09;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background:white;
+    outline: none;
+    transition: .4s;
+      margin-left:10px
+}
+.container .loginform .contain .btn {
+    display: block;
+    width: 95%;
+    padding: 15px 20px;
+    font-weight:bold;
+    text-align: center;
+    border-color:#41f70a;
+    background: #f5af2f;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: rgb(34, 33, 33);
+    cursor: pointer;
+    transition: .3s;
+    margin-left: 10px;
+}
+
+ .contain .btn:hover {
+    transform: translateY(-5px);
+    background: #47fc47;
+}
+.container2 {
+    color: #111;
+    font-size: 20px;
+    font-weight:bold;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+}
+
+.container2 a {
+    text-decoration: none;
+    color: #2a07f3;
+}
+@media (max-width: 430px) {
+    .container {
+        width: 300px;
+    }
+}
